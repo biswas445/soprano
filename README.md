@@ -21,6 +21,8 @@ from tts import TTS
 
 model = TTS()
 
+
+
 # basic inference
 out = model.infer("Hello world!")
 
