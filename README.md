@@ -3,7 +3,7 @@
   # Soprano: Instant, Ultra‑Realistic Text‑to‑Speech
 
   [![Alt Text](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/ekwek/Soprano-80M)
-  [![Alt Text](https://img.shields.io/badge/HuggingFace-Space-yellow?logo=huggingface)](https://huggingface.co/spaces/ekwek/Soprano-TTS)
+  [![Alt Text](https://img.shields.io/badge/HuggingFace-Demo-yellow?logo=huggingface)](https://huggingface.co/spaces/ekwek/Soprano-TTS)
 </div>
 
 
@@ -116,7 +116,7 @@ Instead of slow diffusion decoders, Soprano uses a **Vocos‑based decoder**, en
 
 ### 3. Seamless real‑time streaming
 
-A novel streaming strategy leverages the decoder’s receptive field to generate audio with **ultra‑low latency**. The streamed output is acoustically identical to offline synthesis, enabling interactive applications with sub‑frame delays.
+Soprano leverages the decoder’s receptive field to losslessly stream audio with **ultra‑low latency**. The streamed output is acoustically identical to offline synthesis, enabling interactive applications with sub‑frame delays.
 
 ### 4. State‑of‑the‑art neural audio codec
 
