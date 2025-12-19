@@ -1,4 +1,0 @@
-lmdeploy
-torch
-unidecode
-scipy
