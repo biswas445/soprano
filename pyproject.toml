@@ -23,8 +23,14 @@ dependencies = [
   "scipy",
   "torch",
   "unidecode",
+<<<<<<< HEAD
+  "inflect",
+  "scipy",
+  "sounddevice"
+=======
   "uvicorn",
   "inflect"
+>>>>>>> upstream/main
 ]
 license = {file = "LICENSE"}
 
