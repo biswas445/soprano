@@ -13,7 +13,7 @@ class SopranoTTS:
     def __init__(self,
             backend='auto',
             device='cuda',
-            cache_size_mb=10,
+            cache_size_mb=100,
             decoder_batch_size=1,
             model_path=None):
         RECOGNIZED_DEVICES = ['cuda', 'cpu']
